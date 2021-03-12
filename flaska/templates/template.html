@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class = 'container'>
+            <nav>
+                <ul>
+                    <li><a href = "{{ url_for('home') }}">rock</a></li>
+                    <li><a href = "{{ url_for('home2') }}">cat</a></li>
+                </ul>
+            </nav>
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
