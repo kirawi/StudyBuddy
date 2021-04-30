@@ -6,12 +6,18 @@
 	3. Everything else is last.
 */
 
+:root {
+	--title-colour: #333333;
+	--heading-colour: #33330f;
+	--text-colour: #595959;
+}
+
 /*
 	Globals
 */
 body {
-	max-width: 900px;
-	padding: 0 15px;
+	max-width: 1400px;
+	padding: 0 50px;
 	margin: 0 auto;
 	font-family: 'Open Sans', 'Times New Roman', Arial, serif;
 }
@@ -21,31 +27,6 @@ header {
 	margin-bottom: 8px;
 	display: flex;
 	justify-content: space-between;
-}
-
-ul.nav-ul	 {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	list-style: none;
-}
-
-ul.nav-ul li {
-	padding: 0 15px;
-}
-
-div.right-header,
-div.account-info {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-div.account-info img {
-	max-width: 28px;
-	max-height: 28px;
-	border-radius: 50%;
-	margin-right: 5px;
 }
 
 a {
@@ -71,6 +52,14 @@ h2 {
 	font-size: 16px;
 }
 
+main div {
+	margin-bottom: 10px;
+}
+
+/* 
+	Classes/IDs 
+*/
+
 button.create-meeting {
 	margin-right: 10px;
 	height: 28px;
@@ -81,39 +70,35 @@ button.create-meeting {
 	outline: none;
 }
 
-main div {
-	margin-bottom: 10px;
+.title {
+	color: var(--title-colour);
 }
 
-main div h2 {
-	margin-bottom: 4px;
+ul.nav-ul	 {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
 }
 
-
-/* 
-	Classes/IDs 
-*/
-.meeting-container {
-	margin-left: 25px;
+ul.nav-ul li {
+	padding: 0 15px;
 }
 
-.meeting-container td:nth-child(1),
-.meeting-container td:nth-child(2) {
-	width: 20px;
-	max-width: 20px;
-	overflow: hidden;
+ul.nav-ul a {
+	color: var(--title-colour) !important;
 }
 
-.icon {
-	vertical-align: middle;
-	pointer-events: none;
+div.right-header,
+div.account-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-/*
-	Media Queries
-*/
-@media only screen and (max-width: 600px) {
-	div.account-info h1 {
-		display: none;
-	}
+div.account-info img {
+	max-width: 28px;
+	max-height: 28px;
+	border-radius: 50%;
+	margin-right: 5px;
 }

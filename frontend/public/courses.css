@@ -1,0 +1,61 @@
+/*
+	Formatting:
+	1.courses- Numerical-only fields should be first, always.courses- Fields that use `auto` but are otherwise
+	   numerical should also be first.courses-
+	2.courses- Partially numerical fields should be second.courses-
+	3.courses- Everything else is last.courses-
+*/
+
+@import url("std.css");
+
+/* 
+	Classes/IDs 
+*/
+
+.courses-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.courses-sidebar {
+	margin-right: 60px;
+	padding: 10px;
+	border: 2px solid #ECECEC;
+	background-color: #F8F8F8;
+}
+
+.courses-sidebar,
+.courses-filters,
+.courses-content,
+.courses-list,
+.courses-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.courses-filters > * {
+	margin: 0 0 6px 0;
+}
+
+.courses-content {
+	border: 1px solid #C4C4C4;
+	background-color: white;
+}
+
+.courses-item {
+	margin: 0;
+	padding: 10px 8px;
+	border: 1px solid #C4C4C4;
+	background-color: white;
+}
+
+.courses-schedule, th, td {
+	border: 1px solid #C4C4C4;
+	border-collapse: collapse;
+}
+
+.courses-schedule th, 
+.courses-schedule td {
+	padding: 8px 10px;
+}

@@ -1,0 +1,120 @@
+/*
+	Formatting:
+	1. Numerical-only fields should be first, always. Fields that use `auto` but are otherwise
+	   numerical should also be first.
+	2. Partially numerical fields should be second.
+	3. Everything else is last.
+*/
+
+@import url("std.css");
+
+/* 
+	Classes/IDs 
+*/
+
+.content {
+	margin-top: 5px;
+}
+
+.content-title {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.responsive-grid {
+	margin: -5px -10px 0 -10px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.responsive-grid-cell {
+	margin: 10px;
+}
+
+.meeting-card {
+	margin: 0;
+	padding: 16px;
+	width: 300px;
+	max-height: 200px;
+	border: 1px solid #C4C4C4;
+	box-shadow: 2px 2px 8px #d9d9d9;
+}
+
+.meeting-header span {
+	display: block;
+	color: var(--heading-colour);
+}
+
+.meeting-title {
+	font-size: 18px;
+}
+
+.meeting-course {
+	font-size: 16px;
+}
+
+.meeting-info {
+	padding-bottom: 8px;
+}
+
+.meeting-live .meeting-time {
+	color: #eb8985;
+}
+
+.meeting-footer {
+	padding-top: 4px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.meeting-description {
+	color: var(--text-colour);
+	font-size: 16px;
+}
+
+.meeting-button {
+	padding: 5px 16px;
+	border-radius: 4px;
+	user-select: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.meeting-upcoming .meeting-button {
+	pointer-events: none;
+	background-color: #f3b5b2;
+	color: #fcf0ef;
+}
+
+.meeting-live .meeting-button {
+	pointer-events: initial;
+}
+
+.meeting-live .meeting-button {
+	background-color: #eb8985;
+	color: #fcf0ef;
+}
+
+.meeting-register .meeting-button {
+	background-color: #4c4c4c;
+	color: #e5e5e5;
+}
+
+/*
+	Media Queries
+*/
+@media only screen and (max-width: 600px) {
+	.title {
+		display: none;
+	}
+
+	div.account-info h1 {
+		display: none;
+	}
+}
