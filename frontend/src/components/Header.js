@@ -1,48 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LoggedOutView = props => {
-	if (!props.currentUser) {
+const AccountView = props => {
+	if (!props.user) {
 		return (
 			<h1>Not logged in!</h1>
 		);
-	}
-
-	return null;
-};
-
-const LoggedInView = props => {
-	if (props.currentUser) {
+	} else {
 		return (
-			<div>
-				<button class="create-meeting">+</button>
-				<div class="account-info">
+			<div className="right-header">
+				<button className="create-meeting">+</button>
+				<div className="account-info">
 					<img src="img_avatar2.png" alt="avatar"></img>
-					<h1>John Doe</h1>
+					<h1>{props.user}</h1>
 				</div>
 			</div>
 		);
 	}
-
-	return null;
-};
+}
 
 class Header extends React.Component {
 	render() {
 		return (
 			<header>
-				<h1 class="title">StudyBuddy</h1>
-				<ul class="nav-ul">
-					<li><h1 class="link active"><Link to="/">Home</Link></h1></li>
-					<li><h1 class="link"><Link to="/courses">Courses</Link></h1></li>
+				<h1 className="title">StudyBuddy</h1>
+				<ul className="nav-ul">
+					<li><h1 className="link active"><Link to="/">Home</Link></h1></li>
+					<li><h1 className="link"><Link to="/courses">Courses</Link></h1></li>
 				</ul>
-				<div class="right-header">
-					<LoggedOutView currentUser={this.props.currentUser} />
-					<LoggedInView currentUser={this.props.currentUser} />
+				<div className="right-header">
+					<AccountView user={this.props.user} />
 				</div>
 			</header>
-			)
-		}
+		);
+	}
 }
 
 export default Header;
