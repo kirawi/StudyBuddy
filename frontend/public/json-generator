@@ -1,0 +1,35 @@
+{
+	created_meetings: [
+		{
+			'repeat(4)': {
+				title: '{{lorem(1, "words")}}',
+				description: '{{lorem(32, "words")}}',
+				course: '{{lorem(1, "words")}}',
+				date: '{{date(new Date(2021, 0, 1), new Date()).getTime()}}',
+				length: '{{floating(0, 120)}}'
+			}
+		}
+	],
+	registered_meetings: [
+		{
+			'repeat(4)': {
+				title: '{{lorem(1, "words")}}',
+				description: '{{lorem(32, "words")}}',
+				course: '{{lorem(1, "words")}}',
+				date: '{{date(new Date(2021, 0, 1), new Date()).getTime()}}',
+				length: '{{floating(0, 120)}}'
+			}
+		}
+	],
+	available_meetings: [
+		{
+			'repeat(4)': {
+				title: '{{lorem(1, "words")}}',
+				description: '{{lorem(32, "words")}}',
+				course: '{{lorem(1, "words")}}',
+				date: '{{date(new Date(2021, 0, 1), new Date()).getTime()}}',
+				length: '{{floating(0, 120)}}'
+			}
+		}
+	]
+}
