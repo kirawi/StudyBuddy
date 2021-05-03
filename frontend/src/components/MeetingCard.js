@@ -15,7 +15,7 @@ const MeetingCard = props => {
 				</div>
 				<hr />
 				<div className="meeting-footer">
-					<span className="meeting-time">{meeting.time} • {meeting.length}</span>
+					<span className="meeting-time">{meeting.date} • {meeting.length}</span>
 					<button className="meeting-button">
 						<span>Join</span>
 					</button>
