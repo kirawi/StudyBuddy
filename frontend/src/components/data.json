@@ -1,0 +1,92 @@
+{
+	"created_meetings": [
+	  {
+		"title": "nostrud",
+		"description": "est elit eu laborum adipisicing consequat ea deserunt est ea ut consequat ut fugiat elit do consectetur enim anim sit dolore ut nisi proident magna tempor enim amet occaecat excepteur dolore nostrud",
+		"course": "id",
+		"date": 1614318907932,
+		"length": "80.919"
+	  },
+	  {
+		"title": "et",
+		"description": "id veniam quis aliquip consectetur ex tempor aliqua velit amet dolor quis est ea commodo ut magna cupidatat et reprehenderit nostrud sit sint sunt ea sint officia pariatur ad tempor irure pariatur",
+		"course": "ea",
+		"date": 1616070410613,
+		"length": "113.2794"
+	  },
+	  {
+		"title": "nisi",
+		"description": "dolor sit officia est non est sint mollit est qui irure adipisicing cupidatat enim dolor ex adipisicing exercitation excepteur culpa exercitation nulla sint laboris nulla sint tempor quis ea id est ea",
+		"course": "qui",
+		"date": 1618714440862,
+		"length": "102.6535"
+	  },
+	  {
+		"title": "mollit",
+		"description": "veniam fugiat in occaecat veniam enim incididunt enim minim do sit ad tempor duis velit magna nisi aliquip irure quis consequat excepteur enim ad minim nisi consequat deserunt elit minim proident ex",
+		"course": "excepteur",
+		"date": 1611703944005,
+		"length": "29.9559"
+	  }
+	],
+	"registered_meetings": [
+	  {
+		"title": "quis",
+		"description": "in ",
+		"course": "tempor",
+		"date": 1615556095151,
+		"length": "52.6068"
+	  },
+	  {
+		"title": "fugiat",
+		"description": "cillum anim Lorem duis anim eu exercitation dolor aliquip ut duis laboris culpa ea adipisicing non sunt reprehenderit pariatur ad minim nulla tempor labore non ut velit nostrud dolore amet exercitation anim",
+		"course": "eiusmod",
+		"date": 1619531026981,
+		"length": "22.3381"
+	  },
+	  {
+		"title": "aliquip",
+		"description": "nisi officia occaecat reprehenderit in ullamco non sit occaecat labore sit ex labore ad do nostrud esse voluptate sunt dolor cillum irure magna labore mollit elit non duis do pariatur incididunt officia",
+		"course": "nisi",
+		"date": 1614479347966,
+		"length": "37.8539"
+	  },
+	  {
+		"title": "dolor",
+		"description": "nisi ullamco nostrud ex adipisicing ullamco irure ex ipsum tempor amet labore consectetur ex esse commodo in aute exercitation quis duis do ullamco cupidatat velit consequat aute et aliqua reprehenderit ullamco ex",
+		"course": "aliqua",
+		"date": 1610286742474,
+		"length": "102.2295"
+	  }
+	],
+	"available_meetings": [
+	  {
+		"title": "consectetur",
+		"description": "ea officia ex ex nulla consequat officia irure exercitation voluptate ex pariatur aliqua mollit voluptate quis nisi exercitation ullamco enim et mollit occaecat velit voluptate labore aute occaecat do voluptate nisi et",
+		"course": "ex",
+		"date": 1615156168760,
+		"length": "13.9187"
+	  },
+	  {
+		"title": "veniam",
+		"description": "dolor id deserunt reprehenderit labore ullamco tempor Lorem anim sit excepteur voluptate ad eiusmod do consectetur ipsum aliquip culpa pariatur aute aliquip nisi ut deserunt ut adipisicing sit minim qui ex consectetur",
+		"course": "occaecat",
+		"date": 1612920634775,
+		"length": "68.6205"
+	  },
+	  {
+		"title": "qui",
+		"description": "occaecat ea duis Lorem quis nulla culpa voluptate cupidatat dolore fugiat labore commodo labore enim in commodo qui fugiat occaecat laboris proident minim amet officia pariatur reprehenderit voluptate ex reprehenderit ad duis",
+		"course": "veniam",
+		"date": 1614363411993,
+		"length": "52.1001"
+	  },
+	  {
+		"title": "sunt",
+		"description": "laboris consectetur officia Lorem sint occaecat voluptate incididunt deserunt incididunt cillum irure Lorem incididunt elit reprehenderit enim dolore aliqua tempor aute tempor eiusmod nulla deserunt voluptate irure reprehenderit laborum in aliquip do",
+		"course": "tempor",
+		"date": 1619938492802,
+		"length": "80.4546"
+	  }
+	]
+  }
