@@ -13,14 +13,12 @@ const MeetingCard = props => {
 					</div>
 					<span className="meeting-description">{meeting.description}</span>
 				</div>
-				<div className="meeting-footer-container">
-					<hr />
-					<div className="meeting-footer">
-						<span className="meeting-time">{meeting.time} • {meeting.length}</span>
-						<button className="meeting-button">
-							<span>Join</span>
-						</button>
-					</div>
+				<hr />
+				<div className="meeting-footer">
+					<span className="meeting-time">{meeting.time} • {meeting.length}</span>
+					<button className="meeting-button">
+						<span>Join</span>
+					</button>
 				</div>
 			</div>
 		</div>
