@@ -13,8 +13,8 @@ class Home extends React.Component {
 	render() {
 		return (
 			<main>
-				<MeetingList title="Upcoming Meetings" meetings={data.registered_meetings} />
-				<MeetingList title="Available Meetings" meetings={data.available_meetings} />
+				<MeetingList type="upcoming" meetings={data.registered_meetings} />
+				<MeetingList type="available" meetings={data.available_meetings} />
 			</main>
 		);
 	}
